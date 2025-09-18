@@ -12,13 +12,11 @@ btn.addEventListener('click',e=>{
 async function getQuote(){
     try{
         const response = await fetch("https://jeetz-007.github.io/Quotes/quotes.json")
-        console.log(response)
         if(!response.ok){
             console.log("Error in fetching URL ")
         }
         const data = await response.json();
-        console.log("API Response : ",data)
-        // To debug uncomment the below code
+        // To debug, uncomment the below code
         // console.log(data[0].q)
         // console.log(data[0].a)
 
