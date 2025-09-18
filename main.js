@@ -16,17 +16,12 @@ async function getQuote(){
             console.log("Error in fetching URL ")
         }
         const data = await response.json();
-        // To debug, uncomment the below code
-        // console.log(data[0].q)
-        // console.log(data[0].a)
 
         // To generate random quotes
         const randomIndex = Math.floor(Math.random() * data.length);
         const selectedQuote = data[randomIndex];
         quote.textContent = `"${selectedQuote.q}"`;
         author.textContent = `- ${selectedQuote.a}`;
-        // quote.textContent = `${data[1].q}`;
-        // author.textContent = ` - ${data[1].a}`
         }
 
     catch(err){
@@ -39,5 +34,7 @@ async function getQuote(){
 
 // Initial call to display a quote when the page loads
 // getQuote();
+
+
 
 
