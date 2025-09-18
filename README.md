@@ -6,14 +6,14 @@ This project fetches developer-themed quotes from a custom JSON file hosted on G
 ---
 
 ## 🚀 Demo
-👉 [Live Demo on GitHub Pages](https://jeetz-007.github.io/DevQuotes/) 
+👉 [Live Demo on Netlify] (https://develeporquotes.netlify.app) 
 ---
 
 ## ✨ Features
 - 🎲 Random programming/developer quotes  
 - 👨‍💻 Author names included  
 - ⚡ Simple, lightweight, and fast  
-- 🚀 Hosted via **GitHub Pages**  
+- 🚀 Hosted via **Netlify**  
 
 ---
 
