@@ -1,7 +1,7 @@
 # DevQuotes 😎
 
 A simple **Random Programming Quote Generator** built with **HTML, CSS, and JavaScript**.  
-This project fetches developer-themed quotes from a custom JSON file hosted on GitHub Pages and displays them with a clean UI.
+This project fetches developer-themed quotes from a custom JSON file hosted on Netlify and displays them with a clean UI.
 
 ---
 
